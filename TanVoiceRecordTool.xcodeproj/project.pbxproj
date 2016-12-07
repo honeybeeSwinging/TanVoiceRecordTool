@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA6057D31C881405006F61A0 /* TanVoiceRecordTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6057D21C881405006F61A0 /* TanVoiceRecordTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA6057B41C88137D006F61A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA60578F1C88137D006F61A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA6057961C88137D006F61A0;
+			remoteInfo = TanVoiceRecordTool;
+		};
+		BA6057BF1C88137D006F61A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA60578F1C88137D006F61A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA6057961C88137D006F61A0;
+			remoteInfo = TanVoiceRecordTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA6057D11C881405006F61A0 /* TanVoiceRecordTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TanVoiceRecordTool.h; sourceTree = "<group>"; };
+		BA6057D21C881405006F61A0 /* TanVoiceRecordTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TanVoiceRecordTool.m; sourceTree = "<group>"; };
+		BA6057E31C88689E006F61A0 /* TanVoiceRecordTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TanVoiceRecordTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6057E41C88689E006F61A0 /* TanVoiceRecordToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TanVoiceRecordToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6057E51C88689E006F61A0 /* TanVoiceRecordToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TanVoiceRecordToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA6057941C88137D006F61A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6057B01C88137D006F61A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6057BB1C88137D006F61A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA60578E1C88137D006F61A0 = {
+			isa = PBXGroup;
+			children = (
+				BA6057D01C881405006F61A0 /* TanVoiceRecordTool */,
+				BA6057E31C88689E006F61A0 /* TanVoiceRecordTool.app */,
+				BA6057E41C88689E006F61A0 /* TanVoiceRecordToolTests.xctest */,
+				BA6057E51C88689E006F61A0 /* TanVoiceRecordToolUITests.xctest */,
+			);
+			sourceTree = "<group>";
+		};
+		BA6057D01C881405006F61A0 /* TanVoiceRecordTool */ = {
+			isa = PBXGroup;
+			children = (
+				BA6057D11C881405006F61A0 /* TanVoiceRecordTool.h */,
+				BA6057D21C881405006F61A0 /* TanVoiceRecordTool.m */,
+			);
+			path = TanVoiceRecordTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA6057961C88137D006F61A0 /* TanVoiceRecordTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA6057C71C88137D006F61A0 /* Build configuration list for PBXNativeTarget "TanVoiceRecordTool" */;
+			buildPhases = (
+				BA6057931C88137D006F61A0 /* Sources */,
+				BA6057941C88137D006F61A0 /* Frameworks */,
+				BA6057951C88137D006F61A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TanVoiceRecordTool;
+			productName = TanVoiceRecordTool;
+			productReference = BA6057E31C88689E006F61A0 /* TanVoiceRecordTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA6057B21C88137D006F61A0 /* TanVoiceRecordToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA6057CA1C88137D006F61A0 /* Build configuration list for PBXNativeTarget "TanVoiceRecordToolTests" */;
+			buildPhases = (
+				BA6057AF1C88137D006F61A0 /* Sources */,
+				BA6057B01C88137D006F61A0 /* Frameworks */,
+				BA6057B11C88137D006F61A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA6057B51C88137D006F61A0 /* PBXTargetDependency */,
+			);
+			name = TanVoiceRecordToolTests;
+			productName = TanVoiceRecordToolTests;
+			productReference = BA6057E41C88689E006F61A0 /* TanVoiceRecordToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA6057BD1C88137D006F61A0 /* TanVoiceRecordToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA6057CD1C88137D006F61A0 /* Build configuration list for PBXNativeTarget "TanVoiceRecordToolUITests" */;
+			buildPhases = (
+				BA6057BA1C88137D006F61A0 /* Sources */,
+				BA6057BB1C88137D006F61A0 /* Frameworks */,
+				BA6057BC1C88137D006F61A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA6057C01C88137D006F61A0 /* PBXTargetDependency */,
+			);
+			name = TanVoiceRecordToolUITests;
+			productName = TanVoiceRecordToolUITests;
+			productReference = BA6057E51C88689E006F61A0 /* TanVoiceRecordToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA60578F1C88137D006F61A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Tangent;
+				TargetAttributes = {
+					BA6057961C88137D006F61A0 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					BA6057B21C88137D006F61A0 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BA6057961C88137D006F61A0;
+					};
+					BA6057BD1C88137D006F61A0 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BA6057961C88137D006F61A0;
+					};
+				};
+			};
+			buildConfigurationList = BA6057921C88137D006F61A0 /* Build configuration list for PBXProject "TanVoiceRecordTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA60578E1C88137D006F61A0;
+			productRefGroup = BA60578E1C88137D006F61A0;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA6057961C88137D006F61A0 /* TanVoiceRecordTool */,
+				BA6057B21C88137D006F61A0 /* TanVoiceRecordToolTests */,
+				BA6057BD1C88137D006F61A0 /* TanVoiceRecordToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA6057951C88137D006F61A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6057B11C88137D006F61A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6057BC1C88137D006F61A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA6057931C88137D006F61A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6057D31C881405006F61A0 /* TanVoiceRecordTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6057AF1C88137D006F61A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6057BA1C88137D006F61A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA6057B51C88137D006F61A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA6057961C88137D006F61A0 /* TanVoiceRecordTool */;
+			targetProxy = BA6057B41C88137D006F61A0 /* PBXContainerItemProxy */;
+		};
+		BA6057C01C88137D006F61A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA6057961C88137D006F61A0 /* TanVoiceRecordTool */;
+			targetProxy = BA6057BF1C88137D006F61A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BA6057C51C88137D006F61A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BA6057C61C88137D006F61A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA6057C81C88137D006F61A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TanVoiceRecordTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tangent.TanVoiceRecordTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA6057C91C88137D006F61A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TanVoiceRecordTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tangent.TanVoiceRecordTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BA6057CB1C88137D006F61A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TanVoiceRecordToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tangent.TanVoiceRecordToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TanVoiceRecordTool.app/TanVoiceRecordTool";
+			};
+			name = Debug;
+		};
+		BA6057CC1C88137D006F61A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TanVoiceRecordToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tangent.TanVoiceRecordToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TanVoiceRecordTool.app/TanVoiceRecordTool";
+			};
+			name = Release;
+		};
+		BA6057CE1C88137D006F61A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TanVoiceRecordToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tangent.TanVoiceRecordToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TanVoiceRecordTool;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BA6057CF1C88137D006F61A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TanVoiceRecordToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tangent.TanVoiceRecordToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TanVoiceRecordTool;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA6057921C88137D006F61A0 /* Build configuration list for PBXProject "TanVoiceRecordTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6057C51C88137D006F61A0 /* Debug */,
+				BA6057C61C88137D006F61A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA6057C71C88137D006F61A0 /* Build configuration list for PBXNativeTarget "TanVoiceRecordTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6057C81C88137D006F61A0 /* Debug */,
+				BA6057C91C88137D006F61A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA6057CA1C88137D006F61A0 /* Build configuration list for PBXNativeTarget "TanVoiceRecordToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6057CB1C88137D006F61A0 /* Debug */,
+				BA6057CC1C88137D006F61A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA6057CD1C88137D006F61A0 /* Build configuration list for PBXNativeTarget "TanVoiceRecordToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6057CE1C88137D006F61A0 /* Debug */,
+				BA6057CF1C88137D006F61A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA60578F1C88137D006F61A0 /* Project object */;
+}
